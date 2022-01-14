@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Login"
+    tools:ignore="ExtraText">
+
+    <ImageView
+        android:id="@+id/imageLogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="@font/economica_bold"
+        android:text="BEM VINDO, CONECTE-SE"
+        android:textColor="#040404"
+        android:textSize="35sp" />
+    <TextView
+        android:id="@+id/textContinuelogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Faça o Login"
+        android:textSize="18sp" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/login_edit"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/black"
+            android:hint="Email" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_height="40dp"
+            android:layout_width="match_parent"
+            android:background="@drawable/login_edit"
+            android:hint="Senha"
+            android:inputType="textPassword"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:gravity="center"/>
+
+        <CheckBox
+            android:id="@+id/remember"
+            style="@android:style/Widget.CompoundButton.CheckBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:buttonTint="@color/black"
+            android:checked="false"
+            android:clickable="true"
+            android:enabled="true"
+            android:text="Lembrar minha senha"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/forgetButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:background="@android:color/transparent"
+            android:text="Esqueceu sua senha?"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/goButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ir"
+            android:background="@color/black"
+            android:textColor="@color/white"
+
+            />
+
+        <Button
+            android:id="@+id/registerButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            android:text="É novo? Clique aqui e crie sua conta"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

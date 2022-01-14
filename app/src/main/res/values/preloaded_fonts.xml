@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/antic</item>
+        <item>@font/bangers</item>
+        <item>@font/cherry_cream_soda</item>
+        <item>@font/economica_bold</item>
+        <item>@font/economica_bold1</item>
+    </array>
+</resources>

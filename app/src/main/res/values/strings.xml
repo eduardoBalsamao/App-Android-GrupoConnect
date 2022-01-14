@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ConectApp</string>
+    <string-array name="tipos_array">
+        <item>Solenoide</item>
+        <item>Bomba</item>
+    </string-array>
+</resources>

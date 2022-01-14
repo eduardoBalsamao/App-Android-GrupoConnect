@@ -1,0 +1,9 @@
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item android:drawable="@drawable/logo_icon" android:duration="100" />
+    <item android:drawable="@drawable/logo_icon2" android:duration="100" />
+    <item android:drawable="@drawable/logo_icon3" android:duration="100" />
+    <item android:drawable="@drawable/logo_icon4" android:duration="100" />
+    <item android:drawable="@drawable/logo_icon5" android:duration="100" />
+    <item android:drawable="@drawable/logo_icon6" android:duration="100" />
+</animation-list>
